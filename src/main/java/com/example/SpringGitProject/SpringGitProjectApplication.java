@@ -20,7 +20,7 @@ public class SpringGitProjectApplication {
 	@GetMapping("/welcome")
 	public String welcome() {
 		
-		return "Welcome to the page";
+		return "Welcome to the portal";
 	}
 	
 	@GetMapping("/check")
